@@ -2,15 +2,16 @@ package Polymorphism;
 
 public class SecurityForce {
 	public static void main(String[] args)
-	{	
+	{
 		duty(new Army());
-		System.out.println("------");
+		System.out.println("-----------------");
 		
 		duty(new Neavy());
-		System.out.println("------------");
+		System.out.println("-----------------");
 		
 		duty(new Airforce());
-		System.out.println("---------------");	
+		System.out.println("-----------------");
+
 	}
 	static void duty(Security s) {
 		s.Job();
