@@ -17,6 +17,7 @@ public class CalciApp {
 //		int num2 = aa.nextInt();
 		
 		duty(new AnisSoft());
+		duty(new RoopaminfoTec());
 		
 	}
 	static void duty(kodCalciApp kc) {
@@ -55,16 +56,28 @@ class AnisSoft implements kodCalciApp{
 }
 
 class RoopaminfoTec implements kodCalciApp{
+	int a;
+	int b;
+	
+	public RoopaminfoTec(int a ,int b) {
+		this.a=a;
+		this.b=b;		
+	}
+	
 	public void add() {
-		
+		int c=a+b;
+		System.out.println("Addition"+c);
 	}
 	public void sub() {
-		
+		int c=a-b;
+		System.out.println("Substraction"+c);	
 	}
 	public void mul() {
-		
+		int c=a*b;
+		System.out.println("Multiplication"+c);	
 	}
 	public void div() {
-		
+		int c=a/b;
+		System.out.println("Division"+c);
 	}
 }
