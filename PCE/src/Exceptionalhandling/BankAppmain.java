@@ -6,10 +6,7 @@ import java.util.Scanner;
 public class BankAppmain {
     public static void main(String[] args) {
     	Bank1 b1 = new Bank1();
-    	b1.Banking();
-       
-        
-        
+    	b1.Banking();    
     }
 }
 class Bank1{
@@ -37,7 +34,6 @@ class Bank1{
 	}	
   }
 }
-
 class AccountNo {
 
     int acc_no = 12345;   
@@ -55,29 +51,26 @@ class AccountNo {
     	   System.out.print("Enter Password: ");
     	   a_pass = sc.nextInt();
     }	
-    
-    
     	// Method to verify account number and password
     	void verify() throws InvalidInputException{
-    		if (u_acc == acc_no && a_pass == pass) {
-    			System.out.println("Login Successful");
-    			balance n = new balance();
-    			n.bal();
-    			n.trans();
-    			
-        } else {
-           InvalidInputException e = new InvalidInputException();
-           throw e;
+    	if (u_acc == acc_no && a_pass == pass) {
+    		System.out.println("Login Successful");
+    		balance n = new balance();
+    		n.bal();
+    		n.trans();
+    		
+        	} else {
+    		InvalidInputException e = new InvalidInputException();
+       	throw e;
         }	
     }	
 }	
 class balance{
-		int b=1000; ;
+	int b=1000; ;
+	
+	void	 bal() {
 		
-		void	 bal() {
-			
-			System.out.println("This is your current balance : " + b);
-		
+	System.out.println("This is your current balance : " + b);	
 	}
 	void trans() {
 		System.out.println("Please enter amount to withdrawl");
@@ -85,7 +78,6 @@ class balance{
 		int w = sc.nextInt();
 		int n = b-w;
 		System.out.println("this is your current amt : " + n);
-		
 	}
 }
 class InvalidInputException extends Exception{
