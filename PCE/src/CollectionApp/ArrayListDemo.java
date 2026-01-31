@@ -26,14 +26,14 @@ public class ArrayListDemo {
 		while(it.hasNext()) {
 			System.out.println(it.next());
 	}
-	ListIterator lt = al.listIterator(al.size());
-		While(lt.hasPrevious()){
-			System.out.println(lt.previous());
-	}
-		
-	Enumeration el = al.elements();
-		while(el.hasMoreElements()) {
-		System.out.println(el.nextElement()+" ");
+//	ListIterator lt = al.listIterator(al.size());
+//		While(lt.hasPrevious()){
+//			System.out.println(lt.previous());
+//	}
+//		
+//	Enumeration el = al.elements();
+//		while(el.hasMoreElements()) {
+//		System.out.println(el.nextElement()+" ");
 	}
 }
 

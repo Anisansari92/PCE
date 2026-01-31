@@ -1,6 +1,7 @@
 package CollectionApp;
 
 import java.util.ArrayDeque;
+import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.ListIterator;
 
@@ -25,9 +26,13 @@ public class ArrayDequeDemo {
 		while(it.hasNext()) {
 			System.out.println(it.next());
 		}
-	ListIterator lt = ad.listIterator(ad.size());
-		while(lt.hasPrevious()) {
-			System.out.println(lt.previous());
-		}
-}
+//	ListIterator lt = ad.listIterator(ad.size());
+//		while(lt.hasPrevious()) {
+//			System.out.println(lt.previous());
+//		}
+//	Enumeration e = ad.element();
+//	while(e.hasMoreElements()){
+//		System.out.println(el.nextElement());
+//	}
+} 
 }
