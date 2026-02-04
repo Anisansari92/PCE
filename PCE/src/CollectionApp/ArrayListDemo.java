@@ -33,7 +33,7 @@ public class ArrayListDemo {
 //		
 //	Enumeration el = al.elements();
 //		while(el.hasMoreElements()) {
-//		System.out.println(el.nextElement()+" ");
+//		System.out.println(e.nextElement()+" ");
 	}
 }
 
