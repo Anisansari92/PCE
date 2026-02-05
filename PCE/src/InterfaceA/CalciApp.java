@@ -1,6 +1,7 @@
 package InterfaceA;
 //import java.util.Scanner;
 
+import java.util.Scanner;
 
 public class CalciApp {
 	public static void main(String[] args) {
@@ -17,7 +18,7 @@ public class CalciApp {
 //		int num2 = aa.nextInt();
 		
 		duty(new AnisSoft());
-		duty(new RoopaminfoTec());
+//		duty(new RoopaminfoTec(num1,num2));
 		
 	}
 	static void duty(kodCalciApp kc) {

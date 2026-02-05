@@ -4,7 +4,7 @@ public class StudentApp {
 	public static void main(String[] args) {
 	}
 }
-class Bike
+abstract class Bike
 {
 	String Brand;
 	int Price;
@@ -16,6 +16,6 @@ class Bike
 		this.Price=Price;
 		this.Color=Color;
 	}
-	public String getBrand();
+	public abstract String getBrand();
 	return Brand;
 } 
