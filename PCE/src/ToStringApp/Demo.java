@@ -26,7 +26,7 @@ public class Demo {
         Iterator itr1 = c.iterator();
         while(itr1.hasNext()){
         	System.out.println(itr1.next());
-   }
+        }
         Set s1=hm.entrySet();
         System.out.println("Entry set");
         Iterator itr2 = s1.iterator();
