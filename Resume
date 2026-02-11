@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anis  | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Anis Ansari</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <img src="profile.jpg" alt="Anis" class="profile-img">
+        <h1>Hi, I'm <span>Anis Ansari</span></h1>
+        <p>Java Full Stack Developer</p>
+        <a href="Anis_Ansari_Resume.docx" target="_blank" class="btn">Resume</a>
+
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p class="about-text">
+        Software Developer with internship experience in backend development, specializing in Java & microservices.
+        Passionate about building scalable systems and learning new technologies.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-card">Java</div>
+        <div class="skill-card">MySQL</div>
+        <div class="skill-card">PostgreSQL</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">Git & GitHub</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-box">
+        <p>📞 7757950088</p>
+        <p>📧 anisansari200319@gmail.com</p>
+        <p>🔗 linkedin.com/in/anis-ansari-ngp</p>
+        <p>💻 github.com/Anisansari92</p>
+    </div>
+</section>
+
+
+</body>
+</html>
